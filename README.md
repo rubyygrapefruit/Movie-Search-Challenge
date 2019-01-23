@@ -25,6 +25,9 @@ Future improvements I would like to make is to make an option to search by a cat
 
 Overall, I had a lot of fun creating this movie search app. I loved the API; the info was easy to extract and use. I ended up searching up a couple movies myself just to see what movies were out there that I haven't seen yet. 
 
+Video Examples: 
+https://youtu.be/YTZHCN6VgWk (Webpage)
+https://youtu.be/EdOKQkq8l8w (Phone) 
 
 ### `npm test`
 
