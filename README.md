@@ -12,6 +12,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+
+#### Challenges, Reasoning behind design decisions, Future Improvements 
+
+A challenge I ran into was aligning the poster image and text side by side (horizontally). I looked into either using flexbos or CSS Grid and ended up choosing flexbox. Since I needed to display my information mostly in a one dimensional layout, flexbox was perfect since it was made for positioning elements in horizontal or vertical stacks. CSS grid is known for displaying elements into rows and columns (2-dimensional). I wanted to also alter my elements' width and height in order to best fill out the available space and for it to accomdate all kinds of screen sizes (phone, tablet, web) so flexbox was best for that. 
+
+I chose to pick the library, react-paginate, to do my pagination since I wanted to make sure I will be able to change the page count dynamically based on whatever title was searched. They also had many props that were convenient to use. You could choose how many items you wanted to display on a single page and they also had a lot of class names so that it was easy to change up the CSS.  
+
+I ended up choosing to go with a 'rotten tomato' meter since they are now my go-to site for movie ratings and reviews. They are more detailed in their reviews and the audience score is always on point. I also had a lot fun creating the tomato meter based on the vote_averages.
+
+Future improvements I would like to make is to make an option to search by a category (date, ratings, reviews, etc). It would allow the app to become more useful to the user. 
+
+Overall, I had a lot of fun creating this movie search app. I loved the API; the info was easy to extract and use. I ended up searching up a couple movies myself just to see what movies were out there that I haven't seen yet. 
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
