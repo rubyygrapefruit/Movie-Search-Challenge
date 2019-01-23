@@ -13,7 +13,7 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 
-#### Challenges, Reasoning behind design decisions, Future Improvements 
+### `Challenges, Reasoning behind design decisions, Future Improvements`
 
 A challenge I ran into was aligning the poster image and text side by side (horizontally). I looked into either using flexbos or CSS Grid and ended up choosing flexbox. Since I needed to display my information mostly in a one dimensional layout, flexbox was perfect since it was made for positioning elements in horizontal or vertical stacks. CSS grid is known for displaying elements into rows and columns (2-dimensional). I wanted to also alter my elements' width and height in order to best fill out the available space and for it to accomdate all kinds of screen sizes (phone, tablet, web) so flexbox was best for that. 
 
