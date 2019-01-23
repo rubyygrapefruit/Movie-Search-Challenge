@@ -1,0 +1,173 @@
+/* web page */
+* {
+	font-family: DIN Pro, -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 1vw;
+	padding-right: inherit;
+}
+
+h1 {
+	font-size: 2vw;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5vw;
+}
+
+a {
+	margin: auto;
+	padding: 0.1875em;
+}
+
+.search {
+	margin: auto;
+	display: block;
+}
+
+ul.pagination {
+	position: sticky;
+	padding-top: 3.125em;
+	display: flex;
+	padding-left: 0.625em;
+	width: 30%;
+	justify-content: center;
+	margin: auto;
+}
+
+li.paginate {
+	border: solid lightgray 0.0625em;
+	padding: 0.125em 0.3125em;
+}
+
+li.paginate.active {
+	font-weight: bold;
+	color: blue;
+	border: solid blue 0.0625em;
+}
+
+.pagination li {
+	display: inline-block;
+	padding-left: 0.625em;
+	padding-right: 0.625em;
+	margin: auto;
+}
+
+.icon {
+	height: 1.2em;
+	margin-bottom: 0.1875em;
+}
+
+span {
+	margin-left: 0.3125em;
+	vertical-align: top;
+	padding-right: initial;
+}
+
+.content {
+	display: flex;
+	justify-content: top;
+	padding: 2.5em;
+}
+
+/* Small devices phones (600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+	* {
+		font-size: 4vw;
+		padding-top: 0.3125em;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 6vw;
+	}
+
+	h2 {
+		font-size: 5vw;
+		padding-top: 0.625em;
+	}
+
+	label {
+		border: grey;
+	}
+
+	img.icon {
+		display: block;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img.img {
+		display: block;
+		padding-left: 15%;
+	}
+
+	.icon {
+		height: 1.5em;
+		width: 1.5em;
+		margin-bottom: 0.1875em;
+	}
+
+	span {
+		padding-right:10%;
+	}
+
+	ul.pagination {
+		padding-top: 0.3125em;
+		display: flex;
+		padding-left: 0.1875em;
+		width: 5%;
+		justify-content: center;
+		margin: auto;
+	}
+
+	.content {
+		display: block;
+		width: 100%;
+	}
+
+	.search {
+		border: lightgrey 0.0625em solid;
+	}
+
+	a {
+		margin: auto;
+		padding: 0.1875em;
+	}
+}
+
+/* Medium devices - iPads/Tablets (768px and up)*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+	* {
+		font-size: 2vw;
+	}
+
+	h1 {
+		font-size: 4vw;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 3vw;
+	}
+
+	img.img {
+		width: auto;
+		height: 100%;
+		display: flex;
+		align-content: top;
+		padding-top: 3%
+	}
+
+	.search {
+		border: lightgrey 0.0625em solid;
+	}
+
+	.content {
+		display: flex;
+		justify-content: top;
+		padding: 2.5em;
+	}
+}
